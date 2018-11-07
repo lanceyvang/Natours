@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	/* best practice for box-sizing */
+}
+
+html {
+	font-size: 62.5%;
+	/* 1rem is exactly the root font size */
+	/* 16px is the default font size, we want our font size to be 10px so we do 10/16 => 62.5% */
+	/* % is best practice in case user has vision problems or want custom sizes */
+}
+
+/* inheritance */
+
+body {
+	box-sizing: border-box;
+	/* makes sure two elements have the same width even if they have different properties such as different padding sizes */
+}
+
+/* Universal Selector */
