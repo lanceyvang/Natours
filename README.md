@@ -2,4 +2,4 @@
 Advance CSS and SASS demo website
 
 # Deployed Website Demo
-https://BeautifulTechnologicalCosmos--five-nine.repl.co
+http://lance-natours.com.s3-website-us-east-1.amazonaws.com/
